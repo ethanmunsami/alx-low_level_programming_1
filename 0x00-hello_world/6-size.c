@@ -17,4 +17,11 @@ int main(void)
 	double doubleVar;
 	char charVar;
 
-	printf("Size of int: %ld bytes\n",sizeof(intVar));
+	printf("Size of char: %ld byte(s)\n",sizeof(charVar));
+	printf("Size of int: %ld byte(s)\n",sizeof(intVar));
+	printf("Size of double: %ld byte(s)\n",sizeof(doubleVar));
+	printf("Size of float: %ld byte(s)\n",sizeof(floatVar));
+	
+	
+	return (0);
+}
