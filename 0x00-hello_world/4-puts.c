@@ -5,10 +5,11 @@
 int main(void)
 
 	{
+	
+	char space[] = """;
+	char string[] = "Programming is like building a multilingual puzzle";
 
-	char string[] = """ + "Programming is like building a multilingual puzzle";
-
-	puts(string);
+	puts(space + string);
 
 	return (0);
 
