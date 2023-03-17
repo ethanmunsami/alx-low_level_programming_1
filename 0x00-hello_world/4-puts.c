@@ -6,10 +6,12 @@
 #include <stdio.h>
 
 /**
-* Main function prints "Programming is like building a multilingual
-* puzzle, followed by a new line
-* Return always 0
-*/
+ * main - Entry point
+ * 
+ * Description: 'the program's description'
+ * 
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
