@@ -1,15 +1,22 @@
+/*
+* File: 4-puts.c
+* Author: Ethan Munsami
+*/
+
 #include <stdio.h>
 
-/*Main function*/
+/*
+* Main function prints "Programming is like building a multilingual puzzle, follwoed by a new line
+* Return always 0
+*/
 
 int main(void)
 
 	{
 	
-	char space[] = """;
-	char string[] = "Programming is like building a multilingual puzzle";
+	char string[] = "\"Programming is like building a multilingual puzzle";
 
-	puts(space + string);
+	puts(string);
 
 	return (0);
 
