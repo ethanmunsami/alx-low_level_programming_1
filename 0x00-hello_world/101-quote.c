@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 /*
- * Function: Outputs "and that piece of art is useful"
+ * Main: Outputs "and that piece of art is useful"
  * - Dora Korpar, 2015-10-19"
  * Return: (1)
  */
@@ -13,5 +13,5 @@ int main(void)
 {
 	puts("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
 
-	return(1);
+	return (1);
 }
