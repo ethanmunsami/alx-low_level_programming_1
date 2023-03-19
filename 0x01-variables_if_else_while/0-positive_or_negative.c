@@ -5,6 +5,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 /*
  * Main: Outputs a random number
@@ -13,7 +14,9 @@
 int main(void)
 {
 
- int n = rand();
+ int n;
+ srand(time(0));
+ n = rand() - RAND_MAX / 2;
  
  if (n < 0) 
     {
@@ -25,4 +28,5 @@ int main(void)
     else {
         printf("%d is positive\n", n);
     }
+    return (0);
 }
