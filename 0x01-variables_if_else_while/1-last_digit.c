@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 #include <time.h>
-#inlcude <conio.h>
+#include <conio.h>
 
 /**
  * main - entry point
