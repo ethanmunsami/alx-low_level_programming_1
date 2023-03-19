@@ -4,6 +4,7 @@
  */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 /*
  * Main: Outputs a random number
@@ -11,15 +12,15 @@
  */
 int main(void)
 {
-	int n = rand();
+	int n = 100
 	if (n > 0)
 	{
-		printf(n, "%d is positive\n");
+		printf("%d is positive\n", n);
 	} else if (n == 0)
 	{
-		printf(n, "%d is zero\n");
+		printf(n, "%d is zero\n", n);
 	} else
 	{ 
-		printf(n, "%d is negative");
+		printf(n, "%d is negative", n);
 	}
 }
