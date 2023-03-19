@@ -6,6 +6,7 @@
 /**
  * main - entry point
  * Description: "Prints the alphabet except q and e"
+ * Return: Always (0)
  */
 int main(void)
 {
@@ -17,6 +18,5 @@ int main(void)
 			putchar(ch);
 	}
 	putchar('\n');
-	
 	return (0);
 }
