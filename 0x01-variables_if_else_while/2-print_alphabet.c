@@ -6,7 +6,6 @@
 /**
 *main - entry point
 *Description: "Prints the alphabet in lower case"
-*
 *Return: Always (0)
 */
 int main(void)
