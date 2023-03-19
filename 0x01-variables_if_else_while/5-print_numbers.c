@@ -11,8 +11,8 @@ int main(void)
 {
   int n = 0;
 
-  while(n < 11)
+  while(n < 10)
     {
-      printf(n);
+      printf("%d", n);
     }
 }
