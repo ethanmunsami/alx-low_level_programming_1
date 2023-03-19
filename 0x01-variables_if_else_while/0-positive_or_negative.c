@@ -10,6 +10,7 @@
 /*
  * main - entry point
  * Desciption: "Outputs a random number"
+ *
  * Return: Always (0)
  */
 int main(void)
