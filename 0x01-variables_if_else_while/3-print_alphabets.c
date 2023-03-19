@@ -11,16 +11,10 @@
  */
 int main(void)
 {
-	char ch = 'a';
-	/*char ch2 = 'A';*/
-
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		putchar(ch);
-	}
-	/*for (ch2 = 'A'; ch2 <= 'Z'; ch2++)
-	{
-		putchar(ch2);
-	}*/
-	putchar('\n');
+char ch = 'a';
+for (ch = 'a'; ch <= 'z'; ch++)
+{
+putchar(ch);
+}
+putchar('\n');
 }
