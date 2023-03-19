@@ -2,7 +2,6 @@
 *File: 2-print_alphabet.c
 *Author: Ethan Munsami
 */
-
 #include <stdio.h>
 /**
 *main - entry point
@@ -13,7 +12,6 @@
 int main(void)
 {
 char ch = 'a';
-
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 putchar(ch);
