@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
+/**
  * main - entry point
  * Desciption: "Outputs a random number"
  *
