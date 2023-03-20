@@ -1,9 +1,9 @@
 /*
  * File: 2-print_alphabet_x10.c
- * Auth: Ethan Munsami
+ * Author: Ethan Munsami
  */
 
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - entry point
