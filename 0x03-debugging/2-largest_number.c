@@ -14,20 +14,20 @@ int largest_number(int a, int b, int c)
 
     if (a > b && a > c)
     {
-        largest == a;
+        largest = a;
     }
     else if (b > a && b > c)
     {
-        largest == b;
+        largest = b;
     }
     else if (c > a && c > b)
     {
-        largest == c;
+        largest = c;
     }
     else
     {
         printf("All the values are equal");
     }
 
-    return (largest);
+    printf("%d", largest);
 }
