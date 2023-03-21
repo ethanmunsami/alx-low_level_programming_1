@@ -29,5 +29,5 @@ int largest_number(int a, int b, int c)
         printf("All the values are equal");
     }
 
-    printf("%d", largest);
+    return (largest);
 }
