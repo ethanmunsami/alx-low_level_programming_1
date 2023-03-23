@@ -18,12 +18,12 @@ int _abs(int n)
 	
 	if (n > 0)
 	{
-		x = abs(n);
-		return (x);
+		printf("%d\n", n);
 	}
 	else if (n < 0)
 	{
-		return (-1);
+		x = abs(n);
+		printf("%d\n", x);
 	}
 	else
 	{
