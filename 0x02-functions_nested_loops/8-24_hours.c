@@ -1,8 +1,13 @@
+/*
+ * File: 8-24_hours.c
+ * Author: Ethan Munsami
+ */
+
 #include "main.h"
 #include <stdio.h>
 
 /**
-  * Description: "Prints every minute of the day of Jack Bauer"
+  * jack_bauer - "Prints every minute of the day of Jack Bauer"
   */
 void jack_bauer(void)
 {
