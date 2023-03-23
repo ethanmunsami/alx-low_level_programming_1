@@ -14,9 +14,12 @@
   */
 int _abs(int n)
 {
+	int x;
+	
 	if (n > 0)
 	{
-		return (1);
+		x = abs(n);
+		return (x);
 	}
 	else if (n < 0)
 	{
