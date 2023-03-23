@@ -8,9 +8,13 @@ void more_numbers(void)
 {
 	char ch = '0';
 
-	for (ch = '0'; ch <= '14'; ch++)
+	while (ch <= '9')
+	{
+		if (ch != '2' && ch != '4')
 		{
 			_putchar(ch);
 		}
+		ch++;
+	}
 	_putchar('\n');
 }
