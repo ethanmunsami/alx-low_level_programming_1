@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
-  * Description: "Adds two values"
-  *
-  * Return: Integer value
+  * add - Adds two values
+  * @n1: First number
+  * @n2: Second number
+  * Return: The sum of the two numbers
   */
 int add(int n1, int n2)
 {
