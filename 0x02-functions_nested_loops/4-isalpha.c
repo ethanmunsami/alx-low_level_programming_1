@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * __isalpha - Function checks for an aplhabetic character
+ * _isalpha - Function checks for an aplhabetic character
+ @c: Character to be checked
  * Return: "1 if it's a char, 0 if not"
  */
 
