@@ -4,10 +4,10 @@
  */
 
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - entry point
- * Description: "Prints the alphabet 10 times"
+ * print_alphabet_x10 - "Prints the alphabet 10 times"
  */
 void print_alphabet_x10(void)
 {
@@ -17,7 +17,7 @@ void print_alphabet_x10(void)
 	while (count++ <= 9)
 	{
 		for (ch = 'a'; ch <= 'z'; ch++)
-			_putchar(ch);
-		_putchar('\n');
+			putchar(ch);
+		putchar('\n');
 	}
 }
