@@ -6,11 +6,12 @@
 
 void print_most_numbers(void)
 {
-	int i = 0;
+	char ch = '0';
 
-	for (i = 0; i < 10; i++)
+	for (ch = '0'; ch < '10'; ch++)
 	{
-		if (i != 2 && i != 4)
-			printf("%d", i);
+		if (ch != '2' && ch != '4')
+			putchar(ch);
 	}
+	putchar('\n');
 }
