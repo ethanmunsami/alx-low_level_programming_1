@@ -12,7 +12,7 @@
   *
   * Return: 1 for positive num, -1 for negative num or 0 for anything else
   */
-int _abs(int)
+int _abs(int n)
 {
 	if (n > 0)
 	{
