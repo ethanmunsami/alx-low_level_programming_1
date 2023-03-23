@@ -8,10 +8,13 @@ void print_most_numbers(void)
 {
 	char ch = '0';
 
-	for (ch = '0'; ch < '10'; ch++)
+	while (ch <= '9')
 	{
 		if (ch != '2' && ch != '4')
-			putchar(ch);
+		{
+			_putchar(ch);
+		}
+		ch++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
