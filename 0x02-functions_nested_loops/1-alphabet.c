@@ -7,7 +7,7 @@
 #include <stdio.h>
 
 /**
- * print_alphabet: "Prints the alphabet in lowercase"
+ * print_alphabet - "Prints the alphabet in lowercase"
  */
 void print_alphabet(void)
 {
