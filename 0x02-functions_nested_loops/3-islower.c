@@ -4,6 +4,7 @@
  */
 
 #include "main.h"
+#include <stdio.h>
 
 /**
  * Description: "Prints 1 if a letter is lowercase"
