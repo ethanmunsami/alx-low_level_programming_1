@@ -1,15 +1,7 @@
-/*
- * File: 4-isalpha.c
- * Author: Ethan Munsami
- */
-
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - entry point
- * Description: "Checks for alphabetic characters"
- *
+ * __isalpha - Function checks for an aplhabetic character
  * Return: "1 if it's a char, 0 if not"
  */
 
@@ -20,5 +12,4 @@ int _isalpha(int c)
 		return (1);
 	}
 
-	return (0);
 }
