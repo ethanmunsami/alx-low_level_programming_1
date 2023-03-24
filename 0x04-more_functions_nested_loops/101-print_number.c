@@ -19,7 +19,9 @@ void print_number(int n)
 	a /= 10;
 
 	if (a != 0)
+	{
 		print_number(a);
+	}
 
 	_putchar((unsigned int) n % 10 + '0');
 
