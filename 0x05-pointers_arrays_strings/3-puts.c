@@ -5,7 +5,7 @@
 * @str: The parameter to be accepted
 */
 
-void _puts(char *str);
+void _puts(char *str)
 {
   for (; *str != '\0'; str++)
 	{
