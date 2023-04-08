@@ -3,7 +3,7 @@
 
 /**
   * main - Function prints its name
-  * 
+  *
   * @argc: argument count
   * @argv: argument vector
   *
