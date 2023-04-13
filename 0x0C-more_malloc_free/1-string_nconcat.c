@@ -3,7 +3,7 @@
 
 /**
   * string_nconcat - Function concatenates to strings
-  * 
+  *
   * @s1: Newly allocated space in memory
   * @s2: Second space allocated in memory
   * @n: Size of space to allocate in memory
