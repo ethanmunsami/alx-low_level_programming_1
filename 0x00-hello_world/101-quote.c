@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 /*
- * Main: Outputs "and that piece of art is useful\"
+ * main - Outputs "and that piece of art is useful\"
  * - Dora Korpar, 2015-10-19"
  *
  * Return: (1)
