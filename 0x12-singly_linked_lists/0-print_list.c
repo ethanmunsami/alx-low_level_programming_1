@@ -1,6 +1,6 @@
-#include "lists.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include "lists.h"
 
 /**
   * print_list - Fucntion prints all elements of a list
