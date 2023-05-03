@@ -3,7 +3,7 @@
 
 /**
   * add_nodeint - Fucntion adds a new node to the start of a linked list
-  * 
+  *
   * @head: The head of the linked list
   * @n: The value to add to the new node
   *
