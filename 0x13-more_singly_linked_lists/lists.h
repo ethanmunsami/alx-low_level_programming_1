@@ -8,6 +8,8 @@
  * @next: A pointer to the next node
  */
 
+#include <stdlib.h>
+
 typedef struct listint_s
 {
 	int n;
